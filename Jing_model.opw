@@ -1,0 +1,62 @@
+[RESOURCES]
+Operator
+SCARA1
+SCARA2
+Oven
+[VARIABLES]
+vOptBatchSize
+Decide 7.NumberOut False
+Decide 9.NumberOut False
+Decide 4.NumberOut False
+Internal Demand.NumberOut
+Bake the Cakes.NumberIn
+Bake the Cakes.NumberOut
+Dispose 6.NumberOut
+Clean Oven 1.NumberOut
+Separate 5.NumberOut Orig
+Dispose 15.NumberOut
+DecoratingSCARA2.NumberOut
+Packing.NumberIn
+DecoratingSCARA2.NumberIn
+Packing.NumberOut
+Clean SCARA1.NumberIn
+Separate 9.NumberOut Orig
+DecoratingSCARA1.NumberOut
+DecoratingSCARA1.NumberIn
+Separate 5.NumberOut Dup
+vRepNumber
+Dispose 11.NumberOut
+Create 4.NumberOut
+Decide Flavour Type.NumberOut False
+Dispose 1.NumberOut
+Decide Flavour Type.NumberOut True
+Dispose 12.NumberOut
+Assemble new mix.NumberIn
+External Orders.NumberOut
+Dispose 5.NumberOut
+Separate 11.NumberOut Orig
+Separate 13.NumberOut Orig
+Assemble new mix.NumberOut
+BatchOrder.NumberOut
+Separate 11.NumberOut Dup
+Separate 13.NumberOut Dup
+vInternalOrderNumber
+vDemandQty
+Batch 4.NumberOut
+Dispose 16.NumberOut
+Clean Oven 1.NumberIn
+Decide 10.NumberOut False
+Decide 12.NumberOut False
+vMTBF1
+Decide 10.NumberOut True
+Decide 12.NumberOut True
+vOrder
+Setup Process.NumberOut
+Clean SCARA1.NumberOut
+Setup Process.NumberIn
+Separate 9.NumberOut Dup
+vMTTR1
+Decide 7.NumberOut True
+Decide 9.NumberOut True
+Decide 4.NumberOut True
+vCurrentRecipe

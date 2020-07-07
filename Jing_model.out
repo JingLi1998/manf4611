@@ -1,0 +1,87 @@
+
+                                      ARENA Simulation Results
+                                       Jing - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 7/ 6/2020
+Analyst: Erik Van                                                    Model revision date: 7/ 6/2020
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .40167     (Insuf)    .00000     1.4320         28    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         28    
+Entity 1.WaitTime                           9.2276     (Insuf)    .00000     192.00         28    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         28    
+Entity 1.OtherTime                          .05964     (Insuf)    .00000     .16700         28    
+Entity 1.TotalTime                          3.4746     (Insuf)    .00000     20.376         28    
+qExternal.WaitingTime                       2.4026     (Insuf)    1.1117     3.7562          5    
+Packing.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000          2    
+DecoratingSCARA2.Queue.WaitingTime              --         --         --         --          0
+BatchOrder.Queue.WaitingTime                8.7272     (Insuf)    .00000     19.200         11    
+Hold4SCARA1.Queue.WaitingTime               9.6098     (Insuf)    .00000     19.080         12    
+DecoratingSCARA1.Queue.WaitingTime          1.8181     (Insuf)    .00000     2.0000         11    
+Clean SCARA1.Queue.WaitingTime                  --         --         --         --          0
+Setup Process.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         10    
+Assemble new mix.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
+qInternal.WaitingTime                       8.5304     (Insuf)    6.9797     10.113          4    
+Hold4SCARA2.Queue.WaitingTime                   --         --         --         --          0
+Batch 4.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                58.385     (Insuf)    .00000     74.000     50.000    
+Operator.NumberBusy                         .36605     (Insuf)    .00000     2.0000     2.0000    
+Operator.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Operator.Utilization                        .18302     (Insuf)    .00000     1.0000     1.0000    
+SCARA1.NumberBusy                           .06111     (Insuf)    .00000     1.0000     .00000    
+SCARA1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SCARA1.Utilization                          .06111     (Insuf)    .00000     1.0000     .00000    
+SCARA2.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+SCARA2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+SCARA2.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
+Oven.NumberBusy                             .43199     (Insuf)    .00000     1.0000     .00000    
+Oven.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Oven.Utilization                            .43199     (Insuf)    .00000     1.0000     .00000    
+qExternal.NumberInQueue                     .50056     (Insuf)    .00000     4.0000     .00000    
+Packing.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+DecoratingSCARA2.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+BatchOrder.Queue.NumberInQueue              4.0000     (Insuf)    .00000     10.000     .00000    
+Hold4SCARA1.Queue.NumberInQueue             34.471     (Insuf)    .00000     53.000     47.000    
+DecoratingSCARA1.Queue.NumberInQueue        .89186     (Insuf)    .00000     1.0000     1.0000    
+Clean SCARA1.Queue.NumberInQueue            .20160     (Insuf)    .00000     2.0000     2.0000    
+Setup Process.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Assemble new mix.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+qInternal.NumberInQueue                     1.4217     (Insuf)    .00000     4.0000     .00000    
+Hold4SCARA2.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Batch 4.Queue.NumberInQueue                 .00000     (Insuf)    .00000     10.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           139.00    
+Entity 1.NumberOut                          89.000    
+Operator.NumberSeized                       24.000    
+Operator.ScheduledUtilization               .18302    
+SCARA1.NumberSeized                         11.000    
+SCARA1.ScheduledUtilization                 .06111    
+SCARA2.NumberSeized                         .00000    
+SCARA2.ScheduledUtilization                 .00000    
+Oven.NumberSeized                           10.000    
+Oven.ScheduledUtilization                   .43199    
+System.NumberOut                            28.000    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.
