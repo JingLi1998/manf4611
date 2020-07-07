@@ -5,58 +5,64 @@ SCARA2
 Oven
 [VARIABLES]
 vOptBatchSize
-Decide 7.NumberOut False
 Decide 9.NumberOut False
 Decide 4.NumberOut False
 Internal Demand.NumberOut
 Bake the Cakes.NumberIn
 Bake the Cakes.NumberOut
 Dispose 6.NumberOut
+isExternalQueue?.NumberOut False
 Clean Oven 1.NumberOut
+isExternalQueue?.NumberOut True
+cleanWhichDecorator.NumberOut False
 Separate 5.NumberOut Orig
+cleanWhichDecorator.NumberOut True
 Dispose 15.NumberOut
 DecoratingSCARA2.NumberOut
 Packing.NumberIn
+isScaraQueue smaller?.NumberOut False
 DecoratingSCARA2.NumberIn
 Packing.NumberOut
+Clean SCARA2.NumberIn
 Clean SCARA1.NumberIn
-Separate 9.NumberOut Orig
+isFlavourSame?.NumberOut False
 DecoratingSCARA1.NumberOut
 DecoratingSCARA1.NumberIn
 Separate 5.NumberOut Dup
+Separate Oven 1.NumberOut Dup
 vRepNumber
 Dispose 11.NumberOut
 Create 4.NumberOut
 Decide Flavour Type.NumberOut False
 Dispose 1.NumberOut
 Decide Flavour Type.NumberOut True
+isScara1?.NumberOut False
 Dispose 12.NumberOut
 Assemble new mix.NumberIn
 External Orders.NumberOut
 Dispose 5.NumberOut
 Separate 11.NumberOut Orig
 Separate 13.NumberOut Orig
+Separate Oven 1.NumberOut Orig
 Assemble new mix.NumberOut
 BatchOrder.NumberOut
 Separate 11.NumberOut Dup
 Separate 13.NumberOut Dup
 vInternalOrderNumber
+isScara1?.NumberOut True
 vDemandQty
 Batch 4.NumberOut
 Dispose 16.NumberOut
 Clean Oven 1.NumberIn
-Decide 10.NumberOut False
-Decide 12.NumberOut False
 vMTBF1
-Decide 10.NumberOut True
-Decide 12.NumberOut True
 vOrder
 Setup Process.NumberOut
+isFlavourSame?.NumberOut True
+Clean SCARA2.NumberOut
 Clean SCARA1.NumberOut
 Setup Process.NumberIn
-Separate 9.NumberOut Dup
+isScaraQueue smaller?.NumberOut True
 vMTTR1
-Decide 7.NumberOut True
 Decide 9.NumberOut True
 Decide 4.NumberOut True
 vCurrentRecipe
