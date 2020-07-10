@@ -4,8 +4,8 @@
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date : 7/ 7/2020
-Analyst: Erik Van                                                    Model revision date: 7/ 7/2020
+Project: Unnamed Project                                             Run execution date : 7/11/2020
+Analyst: Erik Van                                                    Model revision date: 7/11/2020
 
 Replication ended at time      : 24.0 Hours 
 Base Time Units: Hours
@@ -15,75 +15,79 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Entity 1.VATime                             .47555     (Insuf)    .00000     1.6963         46    
+Entity 1.VATime                             .44325     (Insuf)    .00000     1.4824         46    
 Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         46    
-Entity 1.WaitTime                           3.0749     (Insuf)    .00000     28.037         46    
+Entity 1.WaitTime                           2.3244     (Insuf)    .00000     14.667         46    
 Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         46    
 Entity 1.OtherTime                          .03630     (Insuf)    .00000     .16700         46    
-Entity 1.TotalTime                          1.5857     (Insuf)    .00000     11.211         46    
-qExternal.WaitingTime                       2.2928     (Insuf)    1.0500     3.4756          5    
-Packing.Queue.WaitingTime                   .01183     (Insuf)    .00000     .11833         10    
-DecoratingSCARA2.Queue.WaitingTime              --         --         --         --          0
-BatchOrder.Queue.WaitingTime                .54956     (Insuf)    .00000     1.6486         60    
-Hold4SCARA1.Queue.WaitingTime               1.0285     (Insuf)    .00000     2.8223         60    
-DecoratingSCARA1.Queue.WaitingTime          .01370     (Insuf)    .00000     .28724         60    
-Clean SCARA2.Queue.WaitingTime                  --         --         --         --          0
-Clean SCARA1.Queue.WaitingTime              .06034     (Insuf)    .00000     .20517         10    
+Entity 1.TotalTime                          1.4097     (Insuf)    .00000     10.432         46    
+qExternal.WaitingTime                       2.0505     (Insuf)    .88801     3.1998          5    
+Packing.Queue.WaitingTime                   .00897     (Insuf)    .00000     .08970         10    
+DecoratingSCARA2.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000         21    
+BatchOrder.Queue.WaitingTime                .54221     (Insuf)    .00000     1.4667         59    
+BatchInternal.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         50    
+Hold4SCARA1.Queue.WaitingTime               .53009     (Insuf)    .00000     1.4667         38    
+DecoratingSCARA1.Queue.WaitingTime          .00702     (Insuf)    .00000     .26677         38    
+Clean SCARA2.Queue.WaitingTime              .05083     (Insuf)    .00000     .08197          3    
+Clean SCARA1.Queue.WaitingTime              .02376     (Insuf)    .00000     .16632          7    
 Setup Process.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         10    
-Assemble new mix.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000          4    
-qInternal.WaitingTime                       8.4387     (Insuf)    6.8829     10.025          4    
-Hold4SCARA2.Queue.WaitingTime                   --         --         --         --          0
-Batch 4.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         50    
+Assemble new mix.Queue.WaitingTime              --         --         --         --          0
+Hold4SCARA.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000         10    
+Fix Decorator.Queue.WaitingTime                 --         --         --         --          0
+qInternal.WaitingTime                       7.9655     (Insuf)    6.4313     9.5229          4    
+Hold4SCARA2.Queue.WaitingTime               .57143     (Insuf)    .00000     1.2000         21    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Entity 1.WIP                                23.345     (Insuf)    .00000     68.000     .00000    
-Operator.NumberBusy                         .33673     (Insuf)    .00000     2.0000     .00000    
+Entity 1.WIP                                20.761     (Insuf)    .00000     68.000     .00000    
+Operator.NumberBusy                         .27680     (Insuf)    .00000     2.0000     .00000    
 Operator.NumberScheduled                    2.0000     (Insuf)    2.0000     2.0000     2.0000    
-Operator.Utilization                        .16836     (Insuf)    .00000     1.0000     .00000    
-SCARA1.NumberBusy                           .47579     (Insuf)    .00000     1.0000     .00000    
+Operator.Utilization                        .13840     (Insuf)    .00000     1.0000     .00000    
+SCARA1.NumberBusy                           .34331     (Insuf)    .00000     1.0000     .00000    
 SCARA1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
-SCARA1.Utilization                          .47579     (Insuf)    .00000     1.0000     .00000    
-SCARA2.NumberBusy                           .00000     (Insuf)    .00000     .00000     .00000    
+SCARA1.Utilization                          .34331     (Insuf)    .00000     1.0000     .00000    
+SCARA2.NumberBusy                           .11781     (Insuf)    .00000     1.0000     .00000    
 SCARA2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
-SCARA2.Utilization                          .00000     (Insuf)    .00000     .00000     .00000    
-Oven.NumberBusy                             .43101     (Insuf)    .00000     1.0000     .00000    
+SCARA2.Utilization                          .11781     (Insuf)    .00000     1.0000     .00000    
+Oven.NumberBusy                             .44139     (Insuf)    .00000     1.0000     .00000    
 Oven.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Oven.Utilization                            .43101     (Insuf)    .00000     1.0000     .00000    
-qExternal.NumberInQueue                     .47767     (Insuf)    .00000     4.0000     .00000    
-Packing.Queue.NumberInQueue                 .00493     (Insuf)    .00000     1.0000     .00000    
+Oven.Utilization                            .44139     (Insuf)    .00000     1.0000     .00000    
+qExternal.NumberInQueue                     .42719     (Insuf)    .00000     3.0000     .00000    
+Packing.Queue.NumberInQueue                 .00374     (Insuf)    .00000     1.0000     .00000    
 DecoratingSCARA2.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
-BatchOrder.Queue.NumberInQueue              1.3739     (Insuf)    .00000     10.000     .00000    
-Hold4SCARA1.Queue.NumberInQueue             2.5713     (Insuf)    .00000     17.000     .00000    
-DecoratingSCARA1.Queue.NumberInQueue        .03424     (Insuf)    .00000     1.0000     .00000    
-Clean SCARA2.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
-Clean SCARA1.Queue.NumberInQueue            .02514     (Insuf)    .00000     1.0000     .00000    
+BatchOrder.Queue.NumberInQueue              1.3329     (Insuf)    .00000     14.000     .00000    
+BatchInternal.Queue.NumberInQueue           .00000     (Insuf)    .00000     10.000     .00000    
+Hold4SCARA1.Queue.NumberInQueue             .83930     (Insuf)    .00000     9.0000     .00000    
+DecoratingSCARA1.Queue.NumberInQueue        .01112     (Insuf)    .00000     1.0000     .00000    
+Clean SCARA2.Queue.NumberInQueue            .00635     (Insuf)    .00000     1.0000     .00000    
+Clean SCARA1.Queue.NumberInQueue            .00693     (Insuf)    .00000     1.0000     .00000    
 Setup Process.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
 Assemble new mix.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
-qInternal.NumberInQueue                     1.4064     (Insuf)    .00000     4.0000     .00000    
-Hold4SCARA2.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
-Batch 4.Queue.NumberInQueue                 .00000     (Insuf)    .00000     10.000     .00000    
+Hold4SCARA.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Fix Decorator.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+qInternal.NumberInQueue                     1.3276     (Insuf)    .00000     4.0000     .00000    
+Hold4SCARA2.Queue.NumberInQueue             .50000     (Insuf)    .00000     9.0000     .00000    
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Entity 1.NumberIn                           156.00    
-Entity 1.NumberOut                          156.00    
+Entity 1.NumberIn                           155.00    
+Entity 1.NumberOut                          155.00    
 Operator.NumberSeized                       40.000    
-Operator.ScheduledUtilization               .16836    
-SCARA1.NumberSeized                         70.000    
-SCARA1.ScheduledUtilization                 .47579    
-SCARA2.NumberSeized                         .00000    
-SCARA2.ScheduledUtilization                 .00000    
+Operator.ScheduledUtilization               .13840    
+SCARA1.NumberSeized                         48.000    
+SCARA1.ScheduledUtilization                 .34331    
+SCARA2.NumberSeized                         21.000    
+SCARA2.ScheduledUtilization                 .11781    
 Oven.NumberSeized                           10.000    
-Oven.ScheduledUtilization                   .43101    
+Oven.ScheduledUtilization                   .44139    
 System.NumberOut                            46.000    
 
 
-Simulation run time: 0.07 minutes.
+Simulation run time: 0.57 minutes.
 Simulation run complete.
