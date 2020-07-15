@@ -5,77 +5,69 @@ SCARA2
 Oven
 [VARIABLES]
 vOptBatchSize
+Separate to Fix Decorator.NumberOut Orig
 Bake the Cakes.NumberIn
 Bake the Cakes.NumberOut
+Count batches before decorator.NumberOut
 Dispose 6.NumberOut
 Dispose 19.NumberOut
-SeparateInternal.NumberOut Orig
-SeparateInternal.NumberOut Dup
-isExternalQueue?.NumberOut False
 Create External Order.NumberOut
-Clean Oven 1.NumberOut
-isExternalQueue?.NumberOut True
+Batch Internal Order.NumberOut
+Clean Oven.NumberOut
+swapPackingBox.NumberIn
+swapPackingBox.NumberOut
 cleanWhichDecorator.NumberOut False
 cleanWhichDecorator.NumberOut True
 Dispose 15.NumberOut
 vInternalNumVanilla
 DecoratingSCARA2.NumberOut
-isQueueEmptyInternal.NumberOut False
 Packing.NumberIn
+isQueueEmptyInternal.NumberOut False
 isScaraQueue smaller?.NumberOut False
+Separate Batch Decorator.NumberOut Dup
 DecoratingSCARA2.NumberIn
+Separate Batch Decorator.NumberOut Orig
 Create Internal Order.NumberOut
 Packing.NumberOut
 isQueueEmptyInternal.NumberOut True
 Clean SCARA1.NumberIn
 Clean SCARA2.NumberIn
+isExternalQueue.NumberOut True
+isExternalQueue.NumberOut False
 isFlavourSame?.NumberOut False
 DecoratingSCARA1.NumberOut
+Separate to Clean Decorator.NumberOut Dup
 vSCARA2STATE
+Separate to Clean Decorator.NumberOut Orig
 DecoratingSCARA1.NumberIn
+Separate to Fix Decorator.NumberOut Dup
 Separate Oven 1.NumberOut Dup
-isSCARA2Broken?.NumberOut True
-isSCARA1Broken?.NumberOut True
 vRepNumber
 Dispose 11.NumberOut
 Create 4.NumberOut
 vSCARA1STATE
-isSCARA2Broken?.NumberOut False
-isSCARA1Broken?.NumberOut False
 Decide Flavour Type.NumberOut False
 Dispose 1.NumberOut
 Fix Decorator.NumberOut
-isScara1Fixed?.NumberOut False
 Fix Decorator.NumberIn
 Decide Flavour Type.NumberOut True
 isQueueEmptyExternal.NumberOut False
-isScara1Fixed?.NumberOut True
 isScara1?.NumberOut False
 Dispose 12.NumberOut
+Separate Into Batch.NumberOut Orig
 Assemble new mix.NumberIn
 isQueueEmptyExternal.NumberOut True
-Dispose 5.NumberOut
-Separate 11.NumberOut Orig
-Separate 14.NumberOut Orig
-Separate 13.NumberOut Orig
+Separate Into Batch.NumberOut Dup
 Separate Oven 1.NumberOut Orig
 Assemble new mix.NumberOut
 BatchOrder.NumberOut
 vInternalNumBatches
-Separate 11.NumberOut Dup
-Separate 14.NumberOut Dup
-Separate 13.NumberOut Dup
 vInternalOrderNumber
-BatchInternal.NumberOut
 isScara1?.NumberOut True
 vDemandQty
-Dispose 16.NumberOut
-Clean Oven 1.NumberIn
-Decide 21.NumberOut False
-Decide 18.NumberOut False
+Clean Oven.NumberIn
+vCurrentBox
 vMTBF1
-Decide 21.NumberOut True
-Decide 18.NumberOut True
 vOrder
 Setup Process.NumberOut
 isFlavourSame?.NumberOut True
