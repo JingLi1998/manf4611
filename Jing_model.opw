@@ -18,6 +18,7 @@ swapPackingBox.NumberIn
 swapPackingBox.NumberOut
 cleanWhichDecorator.NumberOut False
 cleanWhichDecorator.NumberOut True
+Dispose 20.NumberOut
 Dispose 15.NumberOut
 vInternalNumVanilla
 DecoratingSCARA2.NumberOut
@@ -43,12 +44,15 @@ DecoratingSCARA1.NumberIn
 Separate to Fix Decorator.NumberOut Dup
 Separate Oven 1.NumberOut Dup
 vRepNumber
+vSCARA1Flavour
 Dispose 11.NumberOut
+Create 5.NumberOut
 Create 4.NumberOut
 vSCARA1STATE
 Decide Flavour Type.NumberOut False
 Dispose 1.NumberOut
 Fix Decorator.NumberOut
+vSCARA2Flavour
 Fix Decorator.NumberIn
 Decide Flavour Type.NumberOut True
 isQueueEmptyExternal.NumberOut False
