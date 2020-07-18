@@ -5,59 +5,46 @@ SCARA2
 Oven
 [VARIABLES]
 vOptBatchSize
-Separate to Fix Decorator.NumberOut Orig
+Swap Packing Box.NumberIn
+Swap Packing Box.NumberOut
 Bake the Cakes.NumberIn
 Bake the Cakes.NumberOut
 Count batches before decorator.NumberOut
 Dispose 6.NumberOut
 Dispose 19.NumberOut
+Dispose Clean Decorator Duplicates.NumberOut
 Create External Order.NumberOut
 Batch Internal Order.NumberOut
 Clean Oven.NumberOut
-swapPackingBox.NumberIn
-swapPackingBox.NumberOut
-cleanWhichDecorator.NumberOut False
-cleanWhichDecorator.NumberOut True
-Dispose 20.NumberOut
 Dispose 15.NumberOut
 vInternalNumVanilla
 DecoratingSCARA2.NumberOut
 Packing.NumberIn
 isQueueEmptyInternal.NumberOut False
-isScaraQueue smaller?.NumberOut False
 Separate Batch Decorator.NumberOut Dup
 DecoratingSCARA2.NumberIn
 Separate Batch Decorator.NumberOut Orig
 Create Internal Order.NumberOut
 Packing.NumberOut
 isQueueEmptyInternal.NumberOut True
-Clean SCARA1.NumberIn
-Clean SCARA2.NumberIn
 isExternalQueue.NumberOut True
 isExternalQueue.NumberOut False
 isFlavourSame?.NumberOut False
 DecoratingSCARA1.NumberOut
-Separate to Clean Decorator.NumberOut Dup
-vSCARA2STATE
-Separate to Clean Decorator.NumberOut Orig
 DecoratingSCARA1.NumberIn
-Separate to Fix Decorator.NumberOut Dup
 Separate Oven 1.NumberOut Dup
 vRepNumber
 vSCARA1Flavour
 Dispose 11.NumberOut
-Create 5.NumberOut
 Create 4.NumberOut
-vSCARA1STATE
-Decide Flavour Type.NumberOut False
+Create Clean Decorator Duplicate.NumberOut Orig
+Create Clean Decorator Duplicate.NumberOut Dup
 Dispose 1.NumberOut
 Fix Decorator.NumberOut
 vSCARA2Flavour
 Fix Decorator.NumberIn
-Decide Flavour Type.NumberOut True
+Clean Decorator.NumberOut
 isQueueEmptyExternal.NumberOut False
-isScara1?.NumberOut False
-Dispose 12.NumberOut
 Separate Into Batch.NumberOut Orig
 Assemble new mix.NumberIn
 isQueueEmptyExternal.NumberOut True
@@ -67,17 +54,18 @@ Assemble new mix.NumberOut
 BatchOrder.NumberOut
 vInternalNumBatches
 vInternalOrderNumber
-isScara1?.NumberOut True
+Clean Decorator.NumberIn
 vDemandQty
 Clean Oven.NumberIn
 vCurrentBox
+vMTBF2
 vMTBF1
 vOrder
 Setup Process.NumberOut
+Create Fix Decorator Duplicate.NumberOut Dup
+Create Fix Decorator Duplicate.NumberOut Orig
 isFlavourSame?.NumberOut True
-Clean SCARA1.NumberOut
-Clean SCARA2.NumberOut
 Setup Process.NumberIn
-isScaraQueue smaller?.NumberOut True
 vMTTR1
+vMTTR2
 vCurrentRecipe
